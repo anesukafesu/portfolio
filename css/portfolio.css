@@ -1,0 +1,77 @@
+.portfolio h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.arrow {
+  display: none;
+  cursor: pointer;
+}
+
+.portfolio-projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.portfolio-projects {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+
+  /* Internet Explorer 10+ if you still use IE, you do not deserve to be on the internet */
+  -ms-overflow-style: none;
+
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+.portfolio-projects::-webkit-scrollbar {
+  display: none;
+}
+
+.portfolio-project {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #262626;
+  border: 1px solid #454545;
+}
+
+.portfolio-project .text-container {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.portfolio-project .text-container h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.portfolio-project .text-container p {
+  font-size: 16px;
+  color: #828282;
+}
+
+.portfolio-project .text-container a {
+  text-decoration: none;
+  color: #2ec4b6;
+}
+
+.portfolio-project .button-container {
+  margin: 20px;
+}
+
+.portfolio-project img {
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .arrow {
+    display: inline;
+  }
+}

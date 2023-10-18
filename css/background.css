@@ -1,0 +1,17 @@
+.background {
+  /*Position*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  /*Size*/
+  height: 100vh;
+  width: 100vw;
+
+  /*Gridlines*/
+  background-color: #1e1e1e;
+  background-size: 60px 60px;
+  background-image: linear-gradient(to right, #262626 1px, transparent 1px),
+    linear-gradient(to bottom, #262626 1px, transparent 1px);
+}

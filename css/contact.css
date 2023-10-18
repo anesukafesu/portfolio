@@ -1,0 +1,52 @@
+.contact h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-card {
+  margin: 0 auto;
+  background-color: #262626;
+  border: 1px solid #636363;
+  flex-direction: column;
+  padding: 75px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-card h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.socials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+  width: fit-content;
+}
+
+.job-title {
+  color: #9a9a9a;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.email {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1000px) {
+  .contact-card {
+    max-width: 600px;
+  }
+
+  .socials-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

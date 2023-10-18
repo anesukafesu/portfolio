@@ -1,0 +1,90 @@
+header {
+  /* Taking up the height of the viewport less the 70px from the header */
+  height: calc(100vh - 70px);
+
+  /* Padding for smaller screens */
+  padding: 0px 40px;
+
+  /* Center-aligning the hero content container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 1100px;
+  margin: 70px auto 0;
+}
+
+.hero {
+  width: 100%;
+
+  /* Displaying content as centered column on mobile */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* Center-aligning all text */
+  text-align: center;
+
+  /* Creating some gap between different elements */
+  gap: 2.2rem;
+}
+
+.hero img {
+  /* Full width of the container but no more than 250px on mobile*/
+  width: 100%;
+  max-width: 250px;
+}
+
+.hero h1 {
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: #9b9b9b;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .hero img {
+    max-width: 550px;
+  }
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero img {
+    max-width: 450px;
+  }
+
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+  }
+
+  .hero h1 {
+    font-size: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .hero-content {
+    width: 500px;
+  }
+}

@@ -1,0 +1,13 @@
+.action-button {
+  background-color: #2ec4b6;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #262626;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
