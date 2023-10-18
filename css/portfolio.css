@@ -3,7 +3,7 @@
   margin-bottom: 50px;
 }
 
-.arrow {
+.desktop-arrow {
   display: none;
   cursor: pointer;
 }
@@ -70,8 +70,19 @@
   width: 100%;
 }
 
+.mobile-arrows {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
 @media screen and (min-width: 800px) {
-  .arrow {
+  .desktop-arrow {
     display: inline;
+  }
+
+  .mobile-arrows {
+    display: none;
   }
 }
