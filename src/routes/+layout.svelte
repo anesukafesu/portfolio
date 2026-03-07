@@ -3,6 +3,7 @@
 	import '@fontsource/google-sans/500.css';
 	import '@fontsource/google-sans/400-italic.css';
 	import '@fontsource/silkscreen';
+	import '@fontsource/cardo';
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
@@ -14,17 +15,17 @@
 
 <header>
 	<nav>
-		<a class="nav-link" href="/">Home</a>
+		<a class="nav-link" href="/">Anesu Kafesu</a>
 		<ul>
 			<li><a class="nav-link" href="/projects">Projects</a></li>
-			<li>
+			<!-- <li>
 				<a
 					class="nav-link"
 					href="https://docs.google.com/document/d/1s1WfMLgYsulfnoBV91l47gbu3qF6OCd1Cy8ea7Uckro/export?format=pdf"
 					>Resume</a
 				>
-			</li>
-			<li><a class="nav-link" href="https://blog.anesu.dev">Blog</a></li>
+			</li> -->
+			<li><a class="nav-link" href="/blog">Blog</a></li>
 		</ul>
 	</nav>
 </header>
@@ -34,54 +35,56 @@
 </main>
 
 <style>
+	:global(*) {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
 	:global(body) {
-		background-size: 40px 40px;
-		background-image:
-			linear-gradient(to right, #d1d1d1 1px, transparent 1px),
-			linear-gradient(to bottom, #d1d1d1 1px, transparent 1px);
-		font-family: 'Google Sans', sans-serif;
+		font-family: 'Cardo', serif;
+	}
+
+	:global(p) {
+		line-height: 2rem;
+		margin: 20px 0;
+		font-size: 1.1rem;
 	}
 
 	:global(a) {
-		text-decoration: none;
-		color: black;
-		font-weight: 500;
-		margin: 0 -5px;
-		padding: 0 5px;
-		border-radius: 0.8em 0.3em;
-		background: rgb(193, 255, 196);
-		-webkit-box-decoration-break: clone;
-		box-decoration-break: clone;
+		text-decoration: underline dashed 1px rgb(0, 0, 0);
+		color: rgb(0, 72, 255);
+		text-underline-offset: 5px;
 	}
 
-	:global(h1) {
-		font-family: 'Silkscreen', 'system-ui';
-		font-size: 3rem;
-		color: #233b3b;
-	}
-
-	.nav-link {
-		color: black;
-		background: white;
-		padding: 0;
-		margin: 0;
-	}
-
-	main,
 	header {
-		max-width: 800px;
-		margin: 0 auto;
+		position: sticky;
+		top: 0;
+		background-color: white;
+		height: 80px;
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid lightgray;
+		padding: 0 20px;
 	}
 
 	nav {
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		max-width: 1000px;
+		margin: 0 auto;
 	}
 
 	ul {
 		list-style-type: none;
 		display: flex;
 		gap: 10px;
+	}
+
+	main {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 50px 20px;
 	}
 </style>

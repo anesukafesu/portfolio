@@ -2,7 +2,7 @@
 </script>
 
 <div class="container">
-	<h1>Anesu Kafesu</h1>
+	<h1>Re: Introduction</h1>
 	<div class="description">
 		<p>
 			I’m a Junior Software Engineer with a strong focus on backend web development. I studied
@@ -13,7 +13,7 @@
 			My core skills include Node.js, Express, and TypeScript, with an emphasis on clean
 			architecture and well-tested code. I enjoy working close to the problem domain, turning ideas
 			into practical software. I used to blog at Geekflare, but now I occasionally write on my <a
-				href="https://blog.anesu.dev">personal blog</a
+				href="/blog">blog</a
 			>.
 		</p>
 		<p>
@@ -25,52 +25,19 @@
 			<a href="/projects">here</a>.
 		</p>
 		<p>
-			You may use the address <a href="mailto:anesukafesu@gmail.com">anesukafesu@gmail.com</a> to contact
+			You may download my resume from <a
+				href="https://docs.google.com/document/d/1s1WfMLgYsulfnoBV91l47gbu3qF6OCd1Cy8ea7Uckro/export?format=pdf"
+				class="secondary">Download Resume</a
+			>
+			and use the address <a href="mailto:anesukafesu@gmail.com">anesukafesu@gmail.com</a> to contact
 			me.
 		</p>
-	</div>
-	<div class="calls-to-action">
-		<button class="primary">View Projects</button>
-		<a
-			href="https://docs.google.com/document/d/1s1WfMLgYsulfnoBV91l47gbu3qF6OCd1Cy8ea7Uckro/export?format=pdf"
-			class="secondary">Download Resume</a
-		>
 	</div>
 </div>
 
 <style>
 	.container {
-		max-width: 800px;
-		margin: 100px auto 0;
-	}
-
-	.description {
-		font-size: 1.1rem;
-		line-height: 1.75rem;
-	}
-
-	.calls-to-action {
-		display: flex;
-		gap: 10px;
-	}
-
-	.calls-to-action button,
-	.calls-to-action a {
-		padding: 10px 2rem;
-		font-family: 'Google Sans', sans-serif;
-		font-weight: 500;
-		letter-spacing: 0.5px;
-		border-radius: 5px;
-		border: none;
-		cursor: pointer;
-	}
-
-	.primary {
-		background-color: #233b3b;
-		color: white;
-	}
-
-	.secondary {
-		background-color: lightgray;
+		height: 100%;
+		width: 100%;
 	}
 </style>

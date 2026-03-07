@@ -25,6 +25,7 @@
 		"vite": "^7.3.1"
 	},
 	"dependencies": {
+		"@fontsource/cardo": "^5.2.8",
 		"@fontsource/google-sans": "^5.2.1",
 		"@fontsource/silkscreen": "^5.2.8"
 	}
