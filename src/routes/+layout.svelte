@@ -17,7 +17,13 @@
 		<a class="nav-link" href="/">Home</a>
 		<ul>
 			<li><a class="nav-link" href="/projects">Projects</a></li>
-			<li><a class="nav-link" href="/resume">Resume</a></li>
+			<li>
+				<a
+					class="nav-link"
+					href="https://docs.google.com/document/d/1s1WfMLgYsulfnoBV91l47gbu3qF6OCd1Cy8ea7Uckro/export?format=pdf"
+					>Resume</a
+				>
+			</li>
 			<li><a class="nav-link" href="https://blog.anesu.dev">Blog</a></li>
 		</ul>
 	</nav>
@@ -31,8 +37,8 @@
 	:global(body) {
 		background-size: 40px 40px;
 		background-image:
-				linear-gradient(to right, #d1d1d1 1px, transparent 1px),
-				linear-gradient(to bottom, #d1d1d1 1px, transparent 1px);
+			linear-gradient(to right, #d1d1d1 1px, transparent 1px),
+			linear-gradient(to bottom, #d1d1d1 1px, transparent 1px);
 		font-family: 'Google Sans', sans-serif;
 	}
 
@@ -61,7 +67,8 @@
 		margin: 0;
 	}
 
-	main, header {
+	main,
+	header {
 		max-width: 800px;
 		margin: 0 auto;
 	}
