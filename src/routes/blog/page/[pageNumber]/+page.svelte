@@ -15,6 +15,14 @@
 	</article>
 {/each}
 
+{#if data.previousPage}
+	<a href={data.previousPage}>Previous Page</a>
+{/if}
+
+{#if data.nextPage}
+	<a href={data.nextPage}>Next Page</a>
+{/if}
+
 <style>
 	article {
 		display: flex;
