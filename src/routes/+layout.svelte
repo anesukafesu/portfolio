@@ -57,6 +57,14 @@
 		text-underline-offset: 5px;
 	}
 
+	:global(pre) {
+		padding: 20px;
+		background-color: rgb(245, 245, 245);
+		border-radius: 10px;
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
 	header {
 		position: sticky;
 		top: 0;
