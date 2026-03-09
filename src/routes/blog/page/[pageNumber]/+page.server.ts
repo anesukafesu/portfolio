@@ -3,21 +3,14 @@ function createQuery(pageNumber: number) {
     query {
       publication(id: "5f50158e98ae9829ac3da76a") {
         postsViaPage(pageSize: 10, page: ${pageNumber}) {
+          totalDocuments
           pageInfo {
             nextPage
             previousPage
           }
           nodes {
-            id
             slug
             title
-            subtitle
-            coverImage {
-              url
-              isPortrait
-              attribution
-              photographer
-            }
           }
         }
       }
@@ -40,6 +33,7 @@ export async function load({ params }: { params: { pageNumber: number } }) {
 	const json = await response.json();
 
 	return {
+		totalDocuments: json.data.publication.postsViaPage.totalDocuments,
 		nextPage: json.data.publication.postsViaPage.pageInfo.nextPage,
 		previousPage: json.data.publication.postsViaPage.pageInfo.previousPage,
 		posts: json.data.publication.postsViaPage.nodes

@@ -65,6 +65,12 @@
 		line-height: 1.5rem;
 	}
 
+	.nav-link {
+		color: black;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
 	header {
 		position: sticky;
 		top: 0;
