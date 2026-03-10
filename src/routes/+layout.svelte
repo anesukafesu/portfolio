@@ -65,6 +65,22 @@
 		line-height: 1.5rem;
 	}
 
+	:global(blockquote) {
+		padding-left: 5%;
+		border-left: 2px solid gray;
+		margin: 30px 0;
+		font-style: italic;
+		color: #343434;
+	}
+
+	:global(h1) {
+		margin: 3rem 0;
+	}
+
+	:global(h2) {
+		margin-top: 4rem;
+	}
+
 	.nav-link {
 		color: black;
 		text-decoration: none;

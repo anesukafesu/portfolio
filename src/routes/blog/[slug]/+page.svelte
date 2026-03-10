@@ -10,13 +10,22 @@
 	{post.readTimeInMinutes === 1 ? 'min' : 'mins'} to read
 </p>
 <p class="subtitle">{post.subtitle}</p>
-<img src={post.coverImage.url} alt="" />
-<p class="cover-image-attribution">
-	<em
-		>Special thanks to <a href={post.coverImage.attribution}>{post.coverImage.photographer}</a> for the
-		cover image.
-	</em>
-</p>
+
+{#if post.coverImage}
+	<img src={post.coverImage.url} alt="" />
+	{#if post.coverImage.photographer}
+		<p class="cover-image-attribution">
+			<em
+				>Special thanks to <a href={post.coverImage.attribution}>{post.coverImage.photographer}</a> for
+				the cover image.
+			</em>
+		</p>
+	{:else if post.coverImage.attribution}
+		<p class="cover-image-attribution">
+			<em>Image sourced from <a href={post.coverImage.attribution}>here</a>.. </em>
+		</p>
+	{/if}
+{/if}
 
 {@html post.content.html}
 
