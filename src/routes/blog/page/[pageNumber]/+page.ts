@@ -33,8 +33,6 @@ export async function load({ params }: { params: { pageNumber: number } }) {
 
 	const json = await response.json();
 
-	console.log(json);
-
 	return {
 		totalDocuments: json.data.publication.postsViaPage.totalDocuments,
 		nextPage: json.data.publication.postsViaPage.pageInfo.nextPage,
