@@ -82,6 +82,10 @@
 		margin-top: 4rem;
 	}
 
+	:global(ol, ul) {
+		list-style-position: inside;
+	}
+
 	header {
 		position: sticky;
 		top: 0;
