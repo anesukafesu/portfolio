@@ -4,7 +4,8 @@
 	import '@fontsource/google-sans/400-italic.css';
 	import '@fontsource/silkscreen';
 	import '@fontsource/cardo';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.ico';
+	import logo from '$lib/assets/logo.png';
 
 	let { children } = $props();
 </script>
@@ -15,7 +16,7 @@
 
 <header>
 	<nav>
-		<a class="nav-link" href="/">Anesu Kafesu</a>
+		<a id="logo" class="nav-link" href="/"><img src={logo} alt="My logo" />Anesu Kafesu</a>
 		<ul>
 			<li><a class="nav-link" href="/projects">Projects</a></li>
 			<!-- <li>
@@ -81,12 +82,6 @@
 		margin-top: 4rem;
 	}
 
-	.nav-link {
-		color: black;
-		text-decoration: none;
-		font-weight: bold;
-	}
-
 	header {
 		position: sticky;
 		top: 0;
@@ -95,7 +90,30 @@
 		display: flex;
 		align-items: center;
 		border-bottom: 1px solid lightgray;
-		padding: 0 20px;
+		padding: 20px;
+	}
+
+	nav {
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	#logo {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	img {
+		height: 100%;
+	}
+
+	.nav-link {
+		color: black;
+		text-decoration: none;
+		font-weight: bold;
 	}
 
 	nav {
