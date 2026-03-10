@@ -10,27 +10,24 @@
 			designing reliable, maintainable and testable systems.
 		</p>
 		<p>
-			My core skills include Node.js, Express, and TypeScript, with an emphasis on clean
-			architecture and well-tested code. I enjoy working close to the problem domain, turning ideas
-			into practical software. I used to blog at Geekflare, but now I occasionally write on my <a
-				href="/blog">blog</a
-			>.
-		</p>
-		<p>
-			Some of previous work includes <a href="/projects/#cinnamon">Cinnamon</a>
+			My core skills are TypeScript and Node.js. I often build backend projects with Express,
+			frontend projects with Svelte or React, and mobile apps with React Native. I used to be a
+			Technical Content Writer at Geekflare. Some of my portfolio projects include
+			<a href="/projects/#cinnamon">Cinnamon</a>
 			, a small programming language; <a href="/projects/#fourwalls">Fourwalls</a>, an AI-powered
 			housing marketplace; <a href="/projects/#relay">Relay</a>, a Shopify app for dropshippers; and
-			<a href="/projects/#pennywise">Pennywise</a>, a budgeting and expense-tracking backend with
-			MCP support. You can view my full project catalog
-			<a href="/projects">here</a>.
+			<a href="/projects/#pennywise">Pennywise</a>, a collaborative budgeting and expense-tracking
+			application backend. You can view my full project catalog <a href="/projects">here</a>.
 		</p>
 		<p>
-			You may download my resume from <a
+			I am currently working on Score, an open-source streaming app for classical music recordings
+			in the public domain. I am looking for junior development roles or internships, preferably on
+			open-source projects. Here's my <a
 				href="https://docs.google.com/document/d/1s1WfMLgYsulfnoBV91l47gbu3qF6OCd1Cy8ea7Uckro/export?format=pdf"
-				class="secondary">Download Resume</a
+				class="secondary">resume</a
 			>
-			and use the address <a href="mailto:anesukafesu@gmail.com">anesukafesu@gmail.com</a> to contact
-			me.
+			and my email address is <a href="mailto:anesukafesu@gmail.com">anesukafesu@gmail.com</a>. I
+			sometimes write on my <a href="/blog">blog</a>, so you can check that out too.
 		</p>
 	</div>
 </div>
