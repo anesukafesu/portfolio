@@ -4,8 +4,12 @@
 	import '@fontsource/google-sans/400-italic.css';
 	import '@fontsource/silkscreen';
 	import '@fontsource/cardo';
+	import { navigating } from '$app/state';
 	import favicon from '$lib/assets/favicon.ico';
 	import logo from '$lib/assets/logo.png';
+	import Loading from '../components/Loading.svelte';
+
+	console.log(navigating.complete);
 
 	let { children } = $props();
 </script>
@@ -32,7 +36,11 @@
 </header>
 
 <main>
-	{@render children()}
+	{#if navigating.to === null}
+		{@render children()}
+	{:else}
+		<Loading />
+	{/if}
 </main>
 
 <style>
