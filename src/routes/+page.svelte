@@ -6,7 +6,7 @@
 	<div class="description">
 		<p>
 			I’m a Junior Software Engineer with a strong focus on backend web development. I studied
-			Software Engineering at African Leadership University, where I built a solid foundation in
+			Software Engineering at the African Leadership University, where I built a solid foundation in
 			designing reliable, maintainable and testable systems.
 		</p>
 		<p>
