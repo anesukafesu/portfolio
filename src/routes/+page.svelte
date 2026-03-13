@@ -13,7 +13,7 @@
 			My core skills are TypeScript and Node.js. I often build backend projects with Express,
 			frontend projects with Svelte or React, and mobile apps with React Native. I used to be a
 			Technical Content Writer at Geekflare. Some of my portfolio projects include
-			<a href="Https://cinnamon.anesu.dev">Cinnamon</a>
+			<a href="https://cinnamon.anesu.dev">Cinnamon</a>
 			, a small programming language; <a href="https://fourwalls.rw">Fourwalls</a>, an AI-powered
 			housing marketplace; <a href="https://apps.shopify.com/relay">Relay</a>, a Shopify app for dropshippers; and
 			<a href="https://github.com/anesukafesu/pennywise">Pennywise</a>, a collaborative budgeting and expense-tracking
