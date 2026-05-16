@@ -20,7 +20,7 @@ function createQuery(pageNumber: number) {
 }
 
 export async function load({ params }: { params: { pageNumber: number } }) {
-	const response = await fetch('https://gql.hashnode.com', {
+	const response = await fetch('https://gql-beta.hashnode.com', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
