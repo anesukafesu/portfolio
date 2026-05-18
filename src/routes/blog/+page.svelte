@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { formatDate } from '../../[slug]/formatDate.js';
+	import { formatDate } from './formatDate.js';
 
 	const { data } = $props();
 </script>
