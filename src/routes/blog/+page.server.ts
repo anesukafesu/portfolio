@@ -27,7 +27,7 @@ export const load: PageLoad = async ({ fetch }) => {
   const allPosts = [];
 
   while (hasNextPage) {
-    const res = await fetch('https://gql.hashnode.com', {
+    const res = await fetch('https://gql-beta.hashnode.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
